@@ -12,10 +12,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F80D92A81B8BC6ED00EEF6B8 /* ssh2-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "ssh2-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80D92A81B8BC6ED00EEF6B8 /* ssh2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ssh2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D92AB1B8BC6ED00EEF6B8 /* ssh2-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ssh2-iOS.h"; sourceTree = "<group>"; };
 		F80D92AD1B8BC6ED00EEF6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F80D92B81B8BC86300EEF6B8 /* ssh2-Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "ssh2-Mac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80D92B81B8BC86300EEF6B8 /* ssh2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ssh2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D92BA1B8BC86300EEF6B8 /* ssh2-Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ssh2-Mac.h"; sourceTree = "<group>"; };
 		F80D92BC1B8BC86300EEF6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,8 +50,8 @@
 		F80D92A91B8BC6ED00EEF6B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F80D92A81B8BC6ED00EEF6B8 /* ssh2-iOS.framework */,
-				F80D92B81B8BC86300EEF6B8 /* ssh2-Mac.framework */,
+				F80D92A81B8BC6ED00EEF6B8 /* ssh2.framework */,
+				F80D92B81B8BC86300EEF6B8 /* ssh2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 			);
 			name = "ssh2-iOS";
 			productName = "ssh2-iOS";
-			productReference = F80D92A81B8BC6ED00EEF6B8 /* ssh2-iOS.framework */;
+			productReference = F80D92A81B8BC6ED00EEF6B8 /* ssh2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F80D92B71B8BC86300EEF6B8 /* ssh2-Mac */ = {
@@ -129,7 +129,7 @@
 			);
 			name = "ssh2-Mac";
 			productName = "ssh2-Mac";
-			productReference = F80D92B81B8BC86300EEF6B8 /* ssh2-Mac.framework */;
+			productReference = F80D92B81B8BC86300EEF6B8 /* ssh2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +301,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.ssh2-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ssh2;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -317,7 +317,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.ssh2-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ssh2;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -336,7 +336,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.ssh2-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ssh2;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -356,7 +356,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phatblat.ssh2-Mac";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ssh2;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
