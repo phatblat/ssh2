@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F80D92A71B8BC6ED00EEF6B8"
-               BuildableName = "ssh2-iOS.framework"
+               BuildableName = "ssh2.framework"
                BlueprintName = "ssh2-iOS"
-               ReferencedContainer = "container:ssh2-iOS.xcodeproj">
+               ReferencedContainer = "container:ssh2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F80D92A71B8BC6ED00EEF6B8"
+            BuildableName = "ssh2-iOS.framework"
+            BlueprintName = "ssh2-iOS"
+            ReferencedContainer = "container:ssh2-iOS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F80D92A71B8BC6ED00EEF6B8"
-            BuildableName = "ssh2-iOS.framework"
-            BlueprintName = "ssh2-iOS"
-            ReferencedContainer = "container:ssh2-iOS.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F80D92A71B8BC6ED00EEF6B8"
-            BuildableName = "ssh2-iOS.framework"
-            BlueprintName = "ssh2-iOS"
-            ReferencedContainer = "container:ssh2-iOS.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
